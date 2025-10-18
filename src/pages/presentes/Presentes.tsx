@@ -4,6 +4,7 @@ import { toast } from "react-toastify";
 
 import styles from "./Presentes.module.css";
 import Button from "../../components/common/Button";
+import MuteButton from "../../components/common/MuteButton";
 
 import { FaPix } from "react-icons/fa6";
 
@@ -29,6 +30,7 @@ const Presentes = () => {
     return (
         <div>
             <div className={styles.background} />
+            <MuteButton />
             <div className={styles.skipButton}>
                 <Button onClick={handleSkip} transparent>
                     X

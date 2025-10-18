@@ -2,6 +2,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 
 import styles from "./Home.module.css";
+import MuteButton from "../../components/common/MuteButton";
 
 import { MdLocationPin } from "react-icons/md";
 import { FaHeart, FaGift } from "react-icons/fa6";
@@ -33,6 +34,7 @@ const Home = () => {
     return (
         <div>
             <div className={styles.background} />
+            <MuteButton />
             <main className={styles.container}>
                 <div className={styles.buttonsContainer}>
                     <button className={styles.actionButton} onClick={handleWhatsappClick}>

@@ -3,12 +3,14 @@ import { useNavigate } from "react-router-dom";
 
 import styles from "./Intro.module.css";
 import Button from "../../components/common/Button";
+import { useAudio } from "../../contexts/AudioContext";
 
 import IntroVideo from "../../Assets/video/envelope.mp4";
 
 const Intro = () => {
     const navigate = useNavigate();
     const videoRef = useRef<HTMLVideoElement>(null);
+    const { startAudio } = useAudio();
 
     const handleVideoEnd = () => {
         navigate("/home");
@@ -21,6 +23,9 @@ const Intro = () => {
     const handleScreenClick = () => {
         if (videoRef.current) {
             videoRef.current.play();
+            setTimeout(() => {
+                startAudio();
+            }, 7000);
         }
     };
 
