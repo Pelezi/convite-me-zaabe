@@ -6,9 +6,8 @@ import Layout from '../components/layout';
 
 import Home from '../pages/home';
 import Intro from '../pages/intro';
-
-const DressCode = () => <div style={{color: 'white', padding: '2rem', textAlign: 'center'}}><h1>Dress Code</h1><p>Informações sobre o dress code do evento.</p></div>;
-const Presentes = () => <div style={{color: 'white', padding: '2rem', textAlign: 'center'}}><h1>Lista de Presentes</h1><p>Lista de presentes do casal.</p></div>;
+import DressCode from '../pages/dressCode';
+import Presentes from '../pages/presentes';
 
 const AuthRoutes: React.FC = () => {
 
