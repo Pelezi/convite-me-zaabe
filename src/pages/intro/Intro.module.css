@@ -45,4 +45,9 @@
         top: 15px;
         right: 15px;
     }
+
+    .backgroundVideo video {
+        height: 90vh;
+        object-fit: cover;
+    }
 }
