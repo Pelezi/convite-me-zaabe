@@ -4,7 +4,7 @@
     left: 0;
     width: 100vw;
     height: 100vh;
-    background: url('../../Assets/img/Arch.png') no-repeat center center;
+    background: url('../../Assets/img/Presentes.jpg') no-repeat center center;
     background-size: contain;
     z-index: -1;
 }
@@ -94,6 +94,9 @@
 .skipButton {
     width: 50vh;
     text-align: right;
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
 }
 
 @keyframes fadeIn {
@@ -424,5 +427,8 @@
 
     .skipButton {
         width: 80vw;
+        position: fixed;
+        top: 1rem;
+        right: 1rem;
     }
 }

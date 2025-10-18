@@ -12,12 +12,12 @@ const Home = () => {
 
     const handleWhatsappClick = () => {
         const message = "Olá, confirmo minha presença no evento!";
-        const whatsappUrl = `https://wa.me/5511999999999?text=${encodeURIComponent(message)}`;
+        const whatsappUrl = `https://wa.me/5581992437385?text=${encodeURIComponent(message)}`;
         window.open(whatsappUrl, '_blank');
     };
 
     const handleMapsClick = () => {
-        const address = "Rua Example, 123, São Paulo, SP";
+        const address = "Rua Major João Coelho, 25b, Caruaru, PE";
         const mapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(address)}`;
         window.open(mapsUrl, '_blank');
     };
