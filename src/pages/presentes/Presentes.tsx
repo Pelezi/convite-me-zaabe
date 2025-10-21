@@ -16,7 +16,7 @@ const Presentes = () => {
     };
 
     const handlePresentesClick = async () => {
-        const textToCopy = "81999999999";
+        const textToCopy = "81992945933";
         
         try {
             await navigator.clipboard.writeText(textToCopy);

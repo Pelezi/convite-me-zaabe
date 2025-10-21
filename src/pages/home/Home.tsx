@@ -18,8 +18,7 @@ const Home = () => {
     };
 
     const handleMapsClick = () => {
-        const address = "Rua Major João Coelho, 25b, Caruaru, PE";
-        const mapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(address)}`;
+        const mapsUrl = 'https://maps.app.goo.gl/RxSFjrUPzx6zBJk89';
         window.open(mapsUrl, '_blank');
     };
 
