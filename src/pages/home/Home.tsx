@@ -12,7 +12,7 @@ const Home = () => {
     const navigate = useNavigate();
 
     const handleWhatsappClick = () => {
-        const message = "Olá, confirmo minha presença no evento!";
+        const message = "Olá, confirmo minha presença no aniversário de Me-zaabe!";
         const whatsappUrl = `https://wa.me/5581992437385?text=${encodeURIComponent(message)}`;
         window.open(whatsappUrl, '_blank');
     };
